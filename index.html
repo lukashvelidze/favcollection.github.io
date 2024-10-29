@@ -10,20 +10,14 @@
     
     <!-- Form to Add New Movie -->
     <form id="movieForm">
-        <label for="title">Title:</label>
-        <input type="text" id="title" required>
-        
-        <label for="director">Director:</label>
-        <input type="text" id="director" required>
-        
-        <label for="year">Year:</label>
-        <input type="number" id="year" required>
-        
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="director" placeholder="Director" required>
+        <input type="number" id="year" placeholder="Year" required>
         <button type="submit">Add Movie</button>
     </form>
     
     <!-- Table to Display Movies -->
-    <table id="movieTable" border="1">
+    <table id="movieTable">
         <thead>
             <tr>
                 <th>Title</th>
