@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movies Collection</title>
+</head>
+<body>
+    <h1>Favorite Movies Collection</h1>
+    
+    <!-- Form to Add New Movie -->
+    <form id="movieForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        
+        <label for="director">Director:</label>
+        <input type="text" id="director" required>
+        
+        <label for="year">Year:</label>
+        <input type="number" id="year" required>
+        
+        <button type="submit">Add Movie</button>
+    </form>
+    
+    <!-- Table to Display Movies -->
+    <table id="movieTable" border="1">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Director</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically here -->
+        </tbody>
+    </table>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
